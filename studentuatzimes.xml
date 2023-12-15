@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Thu Dec 14 22:32:46 EET 2023 -->
+
+<mydoc>
+	<students>
+
+		<StudentaID>1</StudentaID>
+		<Studentavards>Juris</Studentavards>
+		<Studentauzvards>Buris</Studentauzvards>
+		<Vecums>18</Vecums>
+		<Klase>12</Klase>
+	</students>
+
+	<atzimes>
+		<AtzimesID>11</AtzimesID>
+		<Matematika>9</Matematika>
+		<Literatura>7</Literatura>
+		<Biologija>8</Biologija>
+		<Sports>10</Sports>
+		<Maksla>10</Maksla>
+		<StudentaID>1</StudentaID>
+	</atzimes>
+</mydoc>

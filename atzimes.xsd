@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Klase" type="xs:string"/>
+	<xs:element name="Studentavards" type="xs:string"/>
+	<xs:element name="students">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="StudentaID"/>
+				<xs:element ref="Studentavards"/>
+				<xs:element ref="Studentauzvards"/>
+				<xs:element ref="Vecums"/>
+				<xs:element ref="Klase"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="StudentaID" type="xs:string"/>
+	<xs:element name="AtzimesID" type="xs:string"/>
+	<xs:element name="atzimes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="AtzimesID"/>
+				<xs:element ref="Matematika"/>
+				<xs:element ref="Literatura"/>
+				<xs:element ref="Biologija"/>
+				<xs:element ref="Sports"/>
+				<xs:element ref="Maksla"/>
+				<xs:element ref="StudentaID"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Biologija" type="xs:string"/>
+	<xs:element name="Studentauzvards" type="xs:string"/>
+	<xs:element name="mydoc">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="students"/>
+				<xs:element ref="atzimes"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Matematika" type="xs:string"/>
+	<xs:element name="Vecums" type="xs:string"/>
+	<xs:element name="Literatura" type="xs:string"/>
+	<xs:element name="Sports" type="xs:string"/>
+	<xs:element name="Maksla" type="xs:string"/>
+</xs:schema>
