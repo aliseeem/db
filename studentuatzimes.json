@@ -1,0 +1,20 @@
+{
+	"mydoc": {
+		"students": {
+			"StudentaID": "1",
+			"Studentavards": "Juris",
+			"Studentauzvards": "Buris",
+			"Vecums": "18",
+			"Klase": "12"
+		},
+		"atzimes": {
+			"AtzimesID": "11",
+			"Matematika": "9",
+			"Literatura": "7",
+			"Biologija": "8",
+			"Sports": "10",
+			"Maksla": "10",
+			"StudentaID": "1"
+		}
+	}
+}
